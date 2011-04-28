@@ -1,7 +1,7 @@
 package Mojolicious::Plugin::Bundle;
 
 BEGIN {
-    $Mojolicious::Plugin::Bundle::VERSION = '0.003';
+    $Mojolicious::Plugin::Bundle::VERSION = '0.004';
 }
 use strict;
 
@@ -15,19 +15,19 @@ Mojolicious::Plugin::Bundle - Collection of mojolicious plugins
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
 #In mojolicious application
 
-$self->plugin('yml_config');
+  $self->plugin('yml_config');
 
-$self->plugin('asset_tag_helper');
+  $self->plugin('asset_tag_helper');
 
-$self->plugin('bcs');
+  $self->plugin('bcs');
 
-$self->plugin('bcs-oracle');
+  $self->plugin('bcs-oracle');
 
 =head1 DESCRIPTION
 
